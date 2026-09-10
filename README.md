@@ -1,4 +1,4 @@
-# @knockio/react-native-kanban
+# kanbify
 
 Independent React Native Kanban board. No Redux, navigation, or app UI kit.
 
@@ -7,7 +7,7 @@ Source is published as-is so Metro and `react-native-reanimated` worklets compil
 ## Install
 
 ```bash
-npm install @knockio/react-native-kanban
+npm install kanbify
 ```
 
 Peer dependencies (host app):
@@ -24,8 +24,8 @@ In the host app:
 ## Usage
 
 ```tsx
-import { KanbanBoard, KanbanThemeProvider } from "@knockio/react-native-kanban";
-import type { KanbanCard, DragData } from "@knockio/react-native-kanban/types";
+import { KanbanBoard, KanbanThemeProvider } from "kanbify";
+import type { KanbanCard, DragData } from "kanbify/types";
 
 <KanbanThemeProvider theme={{ primary: "#4FAA3A" }}>
   <KanbanBoard
@@ -56,8 +56,6 @@ cd react-native-kanban
 
 ## Publish to npm
 
-Requires an npm account and access to the `@knockio` org (or change `"name"` in `package.json`).
-
 ```bash
 npm login
 npm pack --dry-run
@@ -67,5 +65,5 @@ npm publish --access public
 Then in any app:
 
 ```bash
-npm install @knockio/react-native-kanban
+npm install kanbify
 ```

@@ -1,7 +1,7 @@
 {
-  "name": "@knockio/react-native-kanban",
+  "name": "kanbify",
   "version": "0.1.0",
-  "description": "Independent React Native Kanban board with drag-and-drop, grouped columns, and infinite load.",
+  "description": "kanbify — independent React Native Kanban board with drag-and-drop, grouped columns, and infinite load.",
   "license": "MIT",
   "author": "Knockio",
   "main": "src/index.ts",
@@ -30,6 +30,7 @@
     "pack:check": "npm pack --dry-run"
   },
   "keywords": [
+    "kanbify",
     "react-native",
     "kanban",
     "board",
